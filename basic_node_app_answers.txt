@@ -2,13 +2,13 @@
 
 > What is a Node module?
 
-A:
+A: A set of functions that we want to include in our application. Modules typically contain functions that are similar in nature (e.g. such as working with files, or adding animation).
 
 > What is the main difference between exports and module.exports?
 
-A:
+A: `module.exports` is an object used to export functions. `exports` is a reference to `module.exports` and is recommended to be used in your modules, but you can use both interchangably. 
 
 
 > Why is using exports recommended?
 
-A: 
+A: Using `exports` avoids accidently reassigning `module.exports` and losing the functions you need for your application.
